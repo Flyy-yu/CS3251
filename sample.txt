@@ -1,0 +1,41 @@
+server: 
+ipsec-143-215-26-77:p2_3251_peiyu_ wang fly$ ./ftaserver 7000 5000
+。。。。。。
+my data seq number is: 45
+my data seq number is: 46
+my data seq number is: 47
+my data seq number is: 48
+my data seq number is: 49
+my data seq number is: 50
+my data seq number is: 51
+my data seq number is: 52
+
+client: 
+Flys-MacBook-Air:p2_3251_peiyu_ wang fly$ ./ftaclient 127.0.0.1:7000 5000
+sent syn
+get ack
+sent ack
+File transfer begin-> please input commend:
+。。。。。。
+my data seq number is: 45
+my data seq number is: 46
+my data seq number is: 47
+my data seq number is: 48
+my data seq number is: 49
+my data seq number is: 50
+my data seq number is: 51
+my data seq number is: 52 
+get 3251.jpg
+get is done
+input next commend:
+get-post 3251.jpg 3251.jpg
+3251.jpg 3251.jpg
+3251.jpg
+post filename: 3251.jpg
+get filename: 3251.jpg
+post is done
+get is done
+input next commend:
+disconnect
+disconnect
+sent FIN

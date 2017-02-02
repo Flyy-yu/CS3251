@@ -1,0 +1,34 @@
+Name:Peiyu Wang
+Email: peiyu94@gatech.edu
+Assignment: RTP project
+
+File: 
+ftaclient.cc: ftaclient code
+ftaserver.cc: ftaserver code
+dbengineRTP.cc  RDBA server code
+dbclientRTP.cc	RDBA client code
+ptc.cc: my RTP code
+rtp.h: rt. header file
+
+How to compile:
+make file included
+just type :  make
+
+how to run:  
+fta server:  ./ftaserver port_number window_size
+fta client:   ./ftaclient  127.0.0.1:port_number window_size
+input comment: make sure your input is like this:
+get filename
+get-post filename filename
+disconnect
+
+
+RDBA server:  ./dbengineRTP port_number
+RDBA client:   ./dbclientRTP 127.0.0.1:port_number student_information_here
+please input correct information: first_name,last_name,gpa,quality_points, gpa_hours
+
+
+design documentation is design report file
+
+
+
